@@ -1,0 +1,28 @@
+<h1 class="animated fadeIn">{{ artesano.nombre | uppercase }} <small>({{ artesano.aparicion | date:'y' }})</small></h1>
+<hr>
+
+<div class="row animated fadeIn fast">
+
+  <div class="col-md-4">
+
+    <img [src]="artesano.img" class="img-fluid" [alt]="artesano.nombre">
+    <br><br>
+    <a [routerLink]="['/artesanos']" class="btn btn-outline-danger btn-block">Regresar</a>
+
+  </div>
+
+  <div class="col-md-8">
+    <h3>{{ artesano.nombre }}</h3>
+    <hr>
+    <p>
+      {{ artesano.bio }}
+    </p>
+    <div>
+      <img *ngIf="artesano.casa == 'Marvel'" class="img-logo" src="assets/img/marvel-logo.png" alt="DC">
+      <img *ngIf="artesano.casa == 'DC'" class="img-logo" src="assets/img/dc-logo.jpg" alt="Marvel">
+    </div>
+
+
+  </div>
+
+</div>
