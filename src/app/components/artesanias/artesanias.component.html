@@ -1,0 +1,23 @@
+<h1>Textiles</h1>
+<hr>
+<div class= "card-columns">
+    <div class="card animated fadeIn" *ngFor="let artesania of artesanias; let i = index">
+        <img [src]="artesania.img2" class="card-img-top" [alt]="artesania.nombreArtesania">
+        <div class="card-body">
+            <h5 class="card-title">{{ artesania.nombreArtesania}}</h5>
+            <p class="card-text">{{artesania.descripcion}}</p>
+            <p class="card-text">{{artesania.lugarOrigen}}</p>
+            <p class="card-text">{{artesania.nombreArtesano}}</p>
+            <p class="card-text"><small class="text-muted"> {{ artesania.fecha}}</small></p>
+            
+            <button (click)= "verArtesania(i)"
+            type= "button" class= "btn btn-outline-primary btn-block">
+            Ver mas..
+            </button>
+            <!--  a [routerLink]="['/artesania', i]" class= "btn btn-outline-primary">Ver mas link..</!--a>
+            <button type = "button" class= "btn btn-outline-primary btn-block">
+                Ver mas
+            <button /!-->
+        </div>
+    </div>
+</div>

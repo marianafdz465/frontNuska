@@ -1,0 +1,25 @@
+<h1 class="animated fadeIn">{{ artesania.nombreArtesania | uppercase }} <small>({{ artesania.fecha | date:'yy' }})</small></h1>
+<hr>
+
+<div class="row animated fadeIn fast">
+
+  <div class="col-md-4">
+
+    <img [src]="artesania.img2" class="img-fluid" [alt]="artesania.nombreArtesano">
+    <br><br>
+    <a [routerLink]="['/artesanias']" class="btn btn-outline-danger btn-block">Regresar</a>
+
+  </div>
+
+  <div class="col-md-8">
+    <h3>{{ artesania.nombreArtesano }}</h3>
+    <hr>
+    <p>
+      {{ artesania.descripcion }}
+    </p>
+  
+
+
+  </div>
+
+</div>
