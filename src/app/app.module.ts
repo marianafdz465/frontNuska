@@ -21,10 +21,12 @@ import { BuscadorComponent } from './components/buscador/buscador.component';
 import { ArtesanoTarjetaComponent } from './components/artesano-tarjeta/artesano-tarjeta.component';
 import { ArtesaniasComponent } from './components/artesanias/artesanias.component';
 import { ArtesaniaComponent } from './components/artesania/artesania.component';
+import { LoginModule } from './login/login.module';
 
 
 
 @NgModule({
+
   declarations: [
     AppComponent,
     NavbarComponent,
@@ -41,7 +43,8 @@ import { ArtesaniaComponent } from './components/artesania/artesania.component';
   imports: [
     FormsModule,
     BrowserModule,
-    APP_ROUTING
+    APP_ROUTING,
+    LoginModule
   ],
   providers: [
     ArtesanosService,

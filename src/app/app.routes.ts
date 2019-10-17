@@ -7,6 +7,7 @@ import { ArtesanoComponent } from './components/artesano/artesano.component';
 import { BuscadorComponent } from './components/buscador/buscador.component';
 import { ArtesaniasComponent } from './components/artesanias/artesanias.component';
 import { ArtesaniaComponent } from './components/artesania/artesania.component';
+import { LoginComponent } from './login/login/login.component';
 
 const APP_ROUTES: Routes = [
   { path: 'home', component: HomeComponent },
@@ -16,6 +17,7 @@ const APP_ROUTES: Routes = [
   { path: 'buscar/:termino', component: BuscadorComponent },
   { path: 'artesanias', component: ArtesaniasComponent },
   {path: 'artesania/:id', component: ArtesaniaComponent },
+  {path: 'login',component: LoginComponent},
   { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
 
