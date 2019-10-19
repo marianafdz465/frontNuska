@@ -1,1 +1,18 @@
-<p>login works!</p>
+
+  <div class="modal-body col-12 text-center pl-5 pr-5">
+        <h4 class="modal-title">Inicia sesión en NUSKA </h4>
+        <img src="assets/img/userIcon.png"alt="80" width="80" >
+        <p class="ml-3 mb-0 row">Nombre de usuario</p>
+        <input type="text" class="form-control row" placeholder="juan97907">
+        <p class="ml-3 mb-0 row ">Contraseña</p>
+        <input type="password" class="form-control row" placeholder="*******">
+        <div class="row justify-content-center py-2">
+            <a type="button" class="btn btn-primary mx-1" href="/#/home" (click)="activeModal.close('Close click')">Aceptar</a>
+            <button ctype="button" class="btn btn-danger mx-1"(click)="activeModal.close('Close click')">Cancelar</button>
+        </div>
+        <div class="row text-center pl-4 pr-4 font-weight-light" style="font-size: .8em;">
+            <span class="text-break">¿Aún no estas registrado en Nuska?</span>
+            <span routerLinkActive="active"><a class="text-primary" href="/#/regisComprador" (click)="activeModal.close('Close click')">Haz click aqui</a> para registrarte como comprador</span>
+            <span routerLinkActive="active"><a class="text-primary" href="/#/regisArtesano" (click)="activeModal.close('Close click')">Haz click aqui</a> para registrarte como artesano</span>
+        </div>
+  </div>
