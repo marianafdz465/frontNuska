@@ -1,7 +1,6 @@
 
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
-import { AboutComponent } from './components/about/about.component';
 import { ArtesanosComponent } from './components/artesanos/artesanos.component';
 import { ArtesanoComponent } from './components/artesano/artesano.component';
 import { BuscadorComponent } from './components/buscador/buscador.component';
@@ -13,7 +12,6 @@ import { BuyerComponent } from './login/buyer-component/buyer-component.componen
 
 const APP_ROUTES: Routes = [
   { path: 'home', component: HomeComponent },
-  { path: 'about', component: AboutComponent },
   { path: 'artesanos', component: ArtesanosComponent },
   { path: 'artesano/:id', component: ArtesanoComponent },
   { path: 'buscar/:termino', component: BuscadorComponent },
