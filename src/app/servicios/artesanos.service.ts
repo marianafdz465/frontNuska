@@ -6,58 +6,58 @@ export class ArtesanosService {
 
   private artesanos: Artesano[] = [
     {
-      nombre: 'Maria Gonzalez Esquiva',
+      nombre: 'Anahí Ramírez',
       // tslint:disable-next-line:max-line-length
-      bio: 'Lugar de nacimiento: Aguascalientes',
-      img: 'assets/img/aquaman.png',
-      aparicion: '1941-11-01',
-      casa: 'DC'
+      bio: 'Proveniente de las orillas del lago de Pátzcuaro, Anahí tiene 20 años dedicandose a trabajar la chuspata. Dedica aproximadamente 15 hrs de jornada diarias para elaborar los productos que comercia en Pátzcuaro, trabajar la chuspata fue la herencia que su padre le dejo y ahora ella se dedica a comerciar sus productos en diferentes partes de Patzcuaro.',
+      img: 'assets/img/artesanos/anahiRamirez.jpg',
+      aparicion: '2019-06-12',
+      casa: 'Pátzcuaro Michoacan'
     },
     {
-      nombre: 'Rocio Fernández',
+      nombre: 'Jose Nando',
       // tslint:disable-next-line:max-line-length
-      bio: 'Los rasgos principales de Batman se resumen en «destreza física, habilidades deductivas y obsesión». La mayor parte de las características básicas de los cómics han variado por las diferentes interpretaciones que le han dado al personaje.',
-      img: 'assets/img/batman.png',
+      bio: 'Originario de San Luis Potosi, aprendio en un pequeño taller de su tío a trabajar el ixtle. Gracias a las enseñanzas de su tío ha podido otorgarle sustento a su familia. José Nando invierte 1 hora en promedio para realizar 2 flores de colores, sus productos los comercia en el centro de San Luis Potosi.',
+      img: 'assets/img/artesanos/joseNando.jpg',
       aparicion: '1939-05-01',
-      casa: 'DC'
+      casa: 'San Luis Potosi'
     },
     {
-      nombre: 'Luis Muñoz',
+      nombre: 'Armando Gómez',
       // tslint:disable-next-line:max-line-length
-      bio: 'Al haber perdido la vista, los cuatro sentidos restantes de Daredevil fueron aumentados por la radiación a niveles superhumanos, en el accidente que tuvo cuando era niño. A pesar de su ceguera, puede "ver" a través de un "sexto sentido" que le sirve como un radar similar al de los murciélagos.',
-      img: 'assets/img/daredevil.png',
+      bio: 'De familia carpintera, el señor Armando Gómez ha dedicado toda su vida a elaborar muebles para la región de Rio Verde. Su sueño es que la artesanía mexicana se le de el valor que se merece, pues en cada mueble se va una parte del alma del artesano mexicano',
+      img: 'assets/img/artesanos/armandoGomez.jpg',
       aparicion: '1964-01-01',
-      casa: 'Marvel'
+      casa: 'Río Verde, San Luis Potosi'
     },
     {
-      nombre: 'Daniela Quezada',
+      nombre: 'Ángel Sanchez Martínez',
       // tslint:disable-next-line:max-line-length
-      bio: 'Su principal poder es su capacidad de aumentar su fuerza hasta niveles prácticamente ilimitados a la vez que aumenta su furia. Dependiendo de qué personalidad de Hulk esté al mando en ese momento (el Hulk Banner es el más débil, pero lo compensa con su inteligencia).',
-      img: 'assets/img/hulk.png',
+      bio: 'Nació en la ciudad de Aguascalientes, desde los 22 años dedica su vida a la alfarería. Tiene un pequeño taller en el centro de la ciudad e imparte cursos, su sueño es trascender y compartir el arte de la alfarería para revalorizar este arte',
+      img: 'assets/img/artesanos/angelSanchez.jpg',
       aparicion: '1962-05-01',
-      casa: 'Marvel'
+      casa: 'Aguascalientes, Aguascalientes'
     },
     {
-      nombre: 'Saturnino Herran',
+      nombre: 'Maira Guadalupe Martínez',
       // tslint:disable-next-line:max-line-length
-      bio: 'Poseedor del anillo de poder que posee la capacidad de crear manifestaciones de luz sólida mediante la utilización del pensamiento. Es alimentado por la Llama Verde (revisada por escritores posteriores como un poder místico llamado Starheart), una llama mágica contenida en dentro de un orbe (el orbe era en realidad un meteorito verde de metal que cayó a la Tierra, el cual encontró un fabricante de lámparas llamado Chang)',
-      img: 'assets/img/linterna-verde.png',
+      bio: 'Especialista en el arte textil, desde temprana edad mostro interes por la costura, así que decidio tomar cursos sobre costura, en 2008 creo su marca de ropa y actualmente se dedica a comerciar sus productos en la ciudad de Aguascalientes',
+      img: 'assets/img/artesanos/mairaMartinez.jpg',
       aparicion: '1940-06-01',
       casa: 'DC'
     },
     {
-      nombre: 'Jesus F. Contreras',
+      nombre: 'Rogelio Benítez Torres',
       // tslint:disable-next-line:max-line-length
-      bio: 'Tras ser mordido por una araña radiactiva, obtuvo los siguientes poderes sobrehumanos, una gran fuerza, agilidad, poder trepar por paredes. La fuerza de Spider-Man le permite levantar 10 toneladas o más. Gracias a esta gran fuerza Spider-Man puede realizar saltos íncreibles. Un "sentido arácnido", que le permite saber si un peligro se cierne sobre él, antes de que suceda. En ocasiones este puede llevar a Spider-Man al origen del peligro.',
-      img: 'assets/img/spiderman.png',
+      bio: 'Nació en Tepic Nayarit y a temprana edad se dio cuenta que contaba con una gran habilidad para trabajar el arte huichol',
+      img: 'assets/img/artesanos/rogelioBenitez.jpg',
       aparicion: '1962-08-01',
       casa: 'Marvel'
     },
     {
-      nombre: 'Jorge Gutierrez',
+      nombre: 'Martina García Cruz',
       // tslint:disable-next-line:max-line-length
-      bio: 'En el universo ficticio de Marvel, Wolverine posee poderes regenerativos que pueden curar cualquier herida, por mortal que ésta sea, además ese mismo poder hace que sea inmune a cualquier enfermedad existente en la Tierra y algunas extraterrestres . Posee también una fuerza sobrehumana, que si bien no se compara con la de otros superhéroes como Hulk, sí sobrepasa la de cualquier humano.',
-      img: 'assets/img/wolverine.png',
+      bio: 'Originaria de Oaxaca, su familia se mudo cuando ella era muy joven al municipio de Dolores Hidalgo. En este lugar aprendió a trabajar con los materiales de la región y con ayuda de sus hermanos fundaron un pequeño taller donde trabajan la talavera y otros productos. Su sueño es poder seguir dedicandose a elaborar artesanía y sin necesidad de bajar el precio de sus productos',
+      img: 'assets/img/artesanos/martinaGarcia.jpg',
       aparicion: '1974-11-01',
       casa: 'Marvel'
     }
