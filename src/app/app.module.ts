@@ -22,6 +22,13 @@ import { ArtesaniasComponent } from './components/artesanias/artesanias.componen
 import { ArtesaniaComponent } from './components/artesania/artesania.component';
 import { LoginModule } from './login/login.module';
 import { FooterComponent } from './components/shared/footer/footer.component';
+import { AboutComponent } from './components/about/about.component';
+import { InstrumentosComponent } from './components/instrumentos/instrumentos.component';
+import { JuguetesComponent } from './components/juguetes/juguetes.component';
+import { JoyeriaComponent } from './components/joyeria/joyeria.component';
+import { TextilesComponent } from './components/textiles/textiles.component';
+import { MueblesComponent } from './components/muebles/muebles.component';
+import { CeramicaComponent } from './components/ceramica/ceramica.component';
 
 
 
@@ -38,7 +45,14 @@ import { FooterComponent } from './components/shared/footer/footer.component';
     ArtesanoTarjetaComponent,
     ArtesaniasComponent,
     ArtesaniaComponent,
-    FooterComponent
+    FooterComponent,
+    AboutComponent,
+    InstrumentosComponent,
+    JuguetesComponent,
+    JoyeriaComponent,
+    TextilesComponent,
+    MueblesComponent,
+    CeramicaComponent
 
   ],
   imports: [

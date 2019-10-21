@@ -8,7 +8,7 @@ export class ArtesaniasService {
         {
             nombreArtesania: 'Objetos de Cobre',
             nombreArtesano: 'Artesano: Marco Fabricio Alcantar',
-            descripcion: 'Diversidad de platos, cazuelas y utensilios de cobre',
+            descripcion: 'Diversidad de joyeria, articulos de decoración y utensilios para el hogar' ,
             img2: 'assets/img/artesanias/cazuelasCobre.jpg',
             lugarOrigen: 'Lugar de venta: Santa Clara del Cobre, Michoacan',
             fecha: '2019-02-03'
@@ -16,71 +16,71 @@ export class ArtesaniasService {
         {
             nombreArtesania: 'Alebrijes Oaxaqueños',
             nombreArtesano: 'Lizeth López Ojeda',
-            descripcion: '',
+            descripcion: 'Piezas elaboradas a base de madera, creaciones de personajes únicos donde cada artesano le da un toque especial basado en su imaginación',
             img2: 'assets/img/artesanias/alebrijes.jpg',
-            lugarOrigen: 'San Martin Tilcajete Oaxaca',
+            lugarOrigen: 'Lugar de venta: San Martin Tilcajete Oaxaca',
             fecha: '2019-02-03'
         },
         {
-            nombreArtesania: 'Cojín Tenagdo',
-            nombreArtesano: 'Juan',
-            descripcion: 'Funda de cojín 45 x 45 cm bordado a mano, cierre con cremallera fina y discrete en la parte lateral del cojin. 100% artesanal',
+            nombreArtesania: 'Cojín Tenango',
+            nombreArtesano: 'Artesano: Isabel López ',
+            descripcion: 'Funda de cojín 45 x 45 cm bordado a mano, cierre con cremallera fina y discreta en la parte lateral del cojin, tela de algodón con coloridos y diseños únicos. ',
             img2: 'assets/img/artesanias/cojin.jpg',
-            lugarOrigen: 'Tenango de Doria, Hidalgo',
+            lugarOrigen: 'Lugar de venta: Tenango de Doria, Hidalgo',
             fecha: '2019-02-03'
         },
         {
             nombreArtesania: 'Piezas de shakira',
-            nombreArtesano: 'Juan',
-            descripcion: 'Pieza de coleccion',
+            nombreArtesano: 'Artesano: Rogelio Benítez',
+            descripcion: 'Piezas de colección, elaboradas con fina cera de Campeche y delicadamente colocada cada shakira para dar forma a objetos propios de la región',
             img2: 'assets/img/artesanias/huichol.jpg',
-            lugarOrigen: 'Tepic, Nayarit',
+            lugarOrigen: 'Lugar de venta: Durango',
             fecha: '2019-02-03'
         },
 
         {
             nombreArtesania: 'Metates y molcajetes',
-            nombreArtesano: 'Juan',
-            descripcion: 'Cojin bordado con hilo blabla',
+            nombreArtesano: 'Artesano: Irene R. Aguilar Alcántara',
+            descripcion: 'Piedra volcanica, labrada dando forma exquisita a diferentes artículos decorativos y de uso domestico',
             img2: 'assets/img/artesanias/petates.jpg',
-            lugarOrigen: 'San Luís Potosí',
+            lugarOrigen: 'Lugar de venta: Ocotlán de Morelos, Oaxaca',
             fecha: '2019-02-03'
         },
 
 
         {
             nombreArtesania: 'Rebozos',
-            nombreArtesano: 'Juan',
-            descripcion: 'Rebozo fino de Santa Maria',
+            nombreArtesano: 'Artesano: Oneida Ochoa',
+            descripcion: 'Rebozo fino de Santa Maria, realizados en telares y cuidadosamente trabajados con hilo de seda.',
             img2: 'assets/img/artesanias/rebozo.jpg',
-            lugarOrigen: 'Santa María, San Luís Potosi',
+            lugarOrigen: 'Lugar de venta: Santa María, San Luís Potosi',
             fecha: '2019-02-03'
         },
 
         {
             nombreArtesania: 'Caminos de mesa',
-            nombreArtesano: 'Juan',
-            descripcion: 'Bordado chiapaneco, caminos de mesa',
+            nombreArtesano: 'Artesano: Juan Martin',
+            descripcion: 'Bordado chiapaneco, bordado en maquina con colores vistosos ',
             img2: 'assets/img/artesanias/tapetes.jpg',
-            lugarOrigen: 'Chiapas',
+            lugarOrigen: 'Lugar de venta: Chiapas',
             fecha: '2019-02-03'
         },
 
 
         {
-            nombreArtesania: 'Cojin Bordado',
-            nombreArtesano: 'Juan',
-            descripcion: 'Cojin bordado con hilo blabla',
+            nombreArtesania: 'Figuras de chuspata',
+            nombreArtesano: 'Artesano: Anahí Ramírez',
+            descripcion: 'Proveniente de las orillas del lago de Patzcuaro, la chuspata es un tipo de lirio acuático que es utilizado por artesanos de la región para la elaboración de múltiples objetos de uso cotidiano. ',
             img2: 'assets/img/artesanias/yute.jpg',
-            lugarOrigen: 'Hidalgo',
+            lugarOrigen: 'Lugar de venta: Pátzcuaro Michoacan',
             fecha: '2019-02-03'
         },
         {
             nombreArtesania: 'Zapato artesanal',
-            nombreArtesano: 'Juan',
-            descripcion: 'Zapatos de cuero de diferentes modelos',
+            nombreArtesano: 'Artesano: Roberto Najar',
+            descripcion: 'Zapatos de cuero y vaqueta de diferentes modelos',
             img2: 'assets/img/artesanias/zapatos.jpg',
-            lugarOrigen: 'León, Guanajuato',
+            lugarOrigen: 'Lugar de venta: León, Guanajuato',
             fecha: '2019-02-03'
         },
     ];

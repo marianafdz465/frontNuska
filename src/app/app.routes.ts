@@ -9,6 +9,16 @@ import { ArtesaniaComponent } from './components/artesania/artesania.component';
 import { LoginComponent } from './login/login/login.component';
 import { CraftmanRegisterComponent } from './login/craftman-register/craftman-register.component';
 import { BuyerComponent } from './login/buyer-component/buyer-component.component';
+import {AboutComponent } from './components/about/about.component';
+import { InstrumentosComponent } from './components/instrumentos/instrumentos.component';
+import { JuguetesComponent } from './components/juguetes/juguetes.component';
+import { JoyeriaComponent } from './components/joyeria/joyeria.component';
+import { TextilesComponent } from './components/textiles/textiles.component';
+import {MueblesComponent } from './components/muebles/muebles.component';
+import {CeramicaComponent } from './components/ceramica/ceramica.component';
+
+
+
 
 const APP_ROUTES: Routes = [
   { path: 'home', component: HomeComponent },
@@ -19,6 +29,13 @@ const APP_ROUTES: Routes = [
   {path: 'artesania/:id', component: ArtesaniaComponent },
   {path: 'regisArtesano', component: CraftmanRegisterComponent},
   {path: 'regisComprador', component: BuyerComponent},
+  {path: 'about', component: AboutComponent},
+  {path: 'instrumentos', component: InstrumentosComponent },
+  {path: 'juguetes', component: JuguetesComponent },
+  {path: 'joyeria', component: JoyeriaComponent },
+  {path: 'textiles', component: TextilesComponent },
+  {path: 'muebles', component: MueblesComponent },
+  {path: 'ceramica', component: CeramicaComponent },
   { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
 
