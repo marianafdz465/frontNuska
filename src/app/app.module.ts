@@ -31,6 +31,7 @@ import { MueblesComponent } from './components/muebles/muebles.component';
 import { CeramicaComponent } from './components/ceramica/ceramica.component';
 import { ProcesoComponent } from './components/proceso/proceso/proceso.component';
 import { VistaProcesoComponent } from './components/vistaProceso/vista-proceso/vista-proceso.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 
@@ -64,7 +65,7 @@ import { VistaProcesoComponent } from './components/vistaProceso/vista-proceso/v
     BrowserModule,
     APP_ROUTING,
     LoginModule,
-    
+    BrowserAnimationsModule
   ],
   providers: [
     ArtesanosService,
