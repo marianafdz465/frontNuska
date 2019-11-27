@@ -29,6 +29,7 @@ import { JoyeriaComponent } from './components/joyeria/joyeria.component';
 import { TextilesComponent } from './components/textiles/textiles.component';
 import { MueblesComponent } from './components/muebles/muebles.component';
 import { CeramicaComponent } from './components/ceramica/ceramica.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 
@@ -59,7 +60,8 @@ import { CeramicaComponent } from './components/ceramica/ceramica.component';
     FormsModule,
     BrowserModule,
     APP_ROUTING,
-    LoginModule
+    LoginModule,
+    BrowserAnimationsModule
   ],
   providers: [
     ArtesanosService,
