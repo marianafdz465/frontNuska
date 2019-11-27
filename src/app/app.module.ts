@@ -29,6 +29,8 @@ import { JoyeriaComponent } from './components/joyeria/joyeria.component';
 import { TextilesComponent } from './components/textiles/textiles.component';
 import { MueblesComponent } from './components/muebles/muebles.component';
 import { CeramicaComponent } from './components/ceramica/ceramica.component';
+import { ProcesoComponent } from './components/proceso/proceso/proceso.component';
+import { VistaProcesoComponent } from './components/vistaProceso/vista-proceso/vista-proceso.component';
 
 
 
@@ -52,18 +54,25 @@ import { CeramicaComponent } from './components/ceramica/ceramica.component';
     JoyeriaComponent,
     TextilesComponent,
     MueblesComponent,
-    CeramicaComponent
+    CeramicaComponent,
+    ProcesoComponent,
+    VistaProcesoComponent
 
   ],
   imports: [
     FormsModule,
     BrowserModule,
     APP_ROUTING,
-    LoginModule
+    LoginModule,
+    
   ],
   providers: [
     ArtesanosService,
     ArtesaniasService,
+  ],
+  
+  entryComponents:[
+    ProcesoComponent
   ],
   bootstrap: [AppComponent]
 })

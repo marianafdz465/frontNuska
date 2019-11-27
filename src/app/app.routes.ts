@@ -16,6 +16,7 @@ import { JoyeriaComponent } from './components/joyeria/joyeria.component';
 import { TextilesComponent } from './components/textiles/textiles.component';
 import {MueblesComponent } from './components/muebles/muebles.component';
 import {CeramicaComponent } from './components/ceramica/ceramica.component';
+import { VistaProcesoComponent } from './components/vistaProceso/vista-proceso/vista-proceso.component';
 
 
 
@@ -36,6 +37,7 @@ const APP_ROUTES: Routes = [
   {path: 'textiles', component: TextilesComponent },
   {path: 'muebles', component: MueblesComponent },
   {path: 'ceramica', component: CeramicaComponent },
+  {path: 'procesos', component: VistaProcesoComponent},
   { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
 
